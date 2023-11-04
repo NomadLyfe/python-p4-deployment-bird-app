@@ -29,6 +29,7 @@ def not_found(e):
 
 api = Api(app)
 
+
 class Birds(Resource):
 
     def get(self):
